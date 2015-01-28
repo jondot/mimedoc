@@ -20,7 +20,8 @@ func main(){
   app := cli.NewApp()
   app.Name = "mimedoc"
   app.Usage = "Cross reference extension-based and content-based mimetypes."
-  app.Author = "jondotan@gmail.com"
+  app.Email = "jondotan@gmail.com"
+  app.Author = "Dotan Nahum"
   app.Version = "0.0.1"
 
   app.Flags = []cli.Flag {

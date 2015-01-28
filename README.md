@@ -5,9 +5,14 @@ content, by doing extension and content based mimetype identification.
 
 ## Quick Start
 
+You'll need [gom](https://github.com/mattn/gom) for dependency
+management with Go.
+
+Also, please get `libmagic`. OSX: `brew install libmagic`, Linux: `apt-get install libmagic-dev`
 
 ```bash
 $ git clone https://github.com/jondot/mimedoc
+$ gom install
 $ make dev
 $ ./mimedoc --help
 ```
@@ -25,7 +30,7 @@ VERSION:
    0.0.1
 
 AUTHOR:
-  jondotan@gmail.com - <unknown@email>
+  Dotan Nahum - <jondotan@gmail.com>
 
 COMMANDS:
    help, h	Shows a list of commands or help for one command
@@ -62,7 +67,7 @@ Fork, implement, add tests, pull request, get my everlasting thanks and a respec
 
 # Copyright
 
-Copyright (c) 2014 [Dotan Nahum](http://gplus.to/dotan) [@jondot](http://twitter.com/jondot). See MIT-LICENSE for further details.
+Copyright (c) 2015 [Dotan Nahum](http://gplus.to/dotan) [@jondot](http://twitter.com/jondot). See MIT-LICENSE for further details.
 
 
 
