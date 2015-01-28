@@ -1,0 +1,4 @@
+gom 'github.com/stretchr/testify/mock'
+gom 'gopkg.in/check.v1'
+gom 'github.com/codegangsta/cli'
+gom 'github.com/rakyll/magicmime'
